@@ -1,0 +1,286 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap");
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
+  font-size: 1.3em !important;
+}
+.nav-link {
+  font-weight: bold !important;
+  font-size: 1em !important;
+  font-family: "Quicksand", sans-serif;
+}
+.description-text {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 2.1rem !important;
+}
+.thumbnail {
+  height: 200px;
+  border: 0cm;
+ width: 1000px;
+ padding: 0cm;
+ border-radius: 2%;
+ 
+}
+.title {
+
+
+
+  color:
+  #000000;
+  color:
+  rgb(0, 0, 0);
+  background-color:
+  #000000;
+  background-color:
+  rgba(0, 0, 0, 0);
+	
+  font-family :  Poppins, sans-serif;
+  
+  font-size:
+  18px;
+
+  line-height:
+  27px;
+  vertical-align:
+  baseline;
+  letter-spacing:
+  normal;
+  word-spacing:
+  0px;
+  margin:
+  20px 0px 7.5px;
+  padding:
+  0px 15px;
+ 
+  font-weight:
+  700;
+  font-style:
+  normal;
+  font-variant:
+  normal;
+  text-transform:
+  none;
+  text-decoration:
+  none solid rgb(0, 0, 0);
+  text-align:
+  center;
+  text-indent:
+  0px;
+
+
+
+
+}
+.publish-date {
+  position: relative;
+  left: 65%;
+  bottom: 1%;
+  font-weight: 500;
+}
+.cards-Container {
+  width: 18rem;
+  height: 25rem;
+  border-radius: 2%;
+  
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  transition: all 0.1s linear;
+}
+.cards-Container:hover {
+  transform: scale(1.01);
+}
+.author-details {
+  margin-right: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 100px) {
+  .cards-Container {
+    width: auto;
+    
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 700px ) {
+  .carousel-inner{
+    width: 100%;
+    height: 300px;
+  }
+}
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+ /* display: -webkit-box;*/
+  line-height: 1.4;
+  margin-top: 1rem;   /* fallback */
+  max-height: 32px;      /* fallback */
+  -webkit-line-clamp: 100; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.box {
+  border: 1px solid #ffffff;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+
+
+  color:
+#4e59ad;
+color:
+rgb(78, 89, 173);
+background-color:
+#000000;
+background-color:
+rgba(0, 0, 0, 0);
+
+font-family :
+Poppins, sans-serif;
+
+font-size:
+16px;
+
+line-height:
+28.8px;
+vertical-align:
+baseline;
+letter-spacing:
+normal;
+word-spacing:
+0px;
+margin:
+0px;
+padding:
+0px;
+
+font-weight:
+400;
+font-style:
+normal;
+font-variant:
+normal;
+text-transform:
+none;
+text-decoration:
+none solid rgb(78, 89, 173);
+text-align:
+center;
+text-indent:
+0px;
+
+
+  
+}
+
+
+.read-more{
+  color: crimson;
+}
+.read-more :hover{
+  color: crimson;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.carousel-item{
+  border-radius: 2%;
+}
+.slider-container{
+  display: flex;
+  width: 85%;
+  height: 150px;
+  margin:30px auto;
+  margin-top:80px;
+  overflow: hidden;
+}
+.slider-frame{
+  display: flex;
+  width: 100%;
+  height: 100%; 
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+.cover-item{
+  min-width:25% ;
+  height: 100%;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+.cover-item iframe{
+  height: 100%;
+  max-width: 100%;
+}
+.button-container{
+  display:flex;
+  width:auto;
+  margin: auto;
+  margin-bottom:40px;
+}
+.slider-button{
+  margin: 0 3px;
+  width:12px;
+  height: 12px;
+  background: rgb(173, 173, 173);
+  border: none;
+  border-radius: 50%;
+}
+.slider-button:focus{
+  background: black;
+  outline: none;
+}
+@media screen and (max-width: 1000px){
+  .cover-item{
+  min-width:33.33%;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+
+}
+@media screen and (max-width:500px){
+  .cover-item{
+      min-width:100%;
+      padding:0 5%;
+      box-sizing:border-box;
+  }
+}
+@media screen and (max-width: 700px){
+  .cover-item{
+  min-width: 50%;
+  padding:0 5%;
+  }
+              .youtube-frame{
+      height:400px;
+  }
+              .career-guide-headder{
+                  top:10%;
+              }
+              section#section-counter{
+                  margin-top:500px;
+              }
+              .one-forth.d-flex.align-items-center.ftco-animate{
+height: 1300px;
+}
+}
+
+
+
+
