@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
 
-    const RESTURL = 'https://institute.careerguide.com/wp-json/'
+    const RESTURL = 'https://institute.careerguide.com/blog/wp-json/'
 
     var app = {
         
