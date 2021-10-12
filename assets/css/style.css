@@ -31,8 +31,9 @@ a {
 .thumbnail {
   height: 200px;
   border: 0cm;
- width: 100%;
- padding: 0cm;
+ width: 352px;
+
+ 
  border-radius: 2%;
  
 }
@@ -93,15 +94,15 @@ a {
   font-weight: 500;
 }
 .cards-Container {
-  width: 18rem;
-  height: 25rem;
-  border-radius: 2%;
+  width: 22rem;
+  height: 24rem;
   
-  box-shadow: 0 0 5px rgb(0, 0, 0);
+  border-radius: 3px;border: 0px solid #818a91;box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+  
   transition: all 0.1s linear;
 }
 .cards-Container:hover {
-  transform: scale(1.01);
+  
 }
 .author-details {
   margin-right: 4px;
@@ -121,13 +122,53 @@ a {
     height: 300px;
   }
 }
+
+#card1 {
+  width: 18rem;
+  height: 25rem;
+  border-radius: 2%;
+  
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  transition: all 0.1s linear;
+}
+#ytplayer{
+  width: 100%;
+ 
+}
+#ytplayert{
+  width: 100%;
+  
+}
+#ytplayert1{
+  width: 100% ;
+  
+}
+@media only screen and (max-width: 70 0px ) {
+#ytplayerc{
+  width: 100%;
+}
+#ytplayer{
+  width: 100%;
+ 
+}
+#ytplayert{
+  width: 100%;
+  
+}
+#ytplayert1{
+  width: 100% ;
+  
+}
+}
+
+
 .text {
   overflow: hidden;
   text-overflow: ellipsis;
  /* display: -webkit-box;*/
   line-height: 1.4;
-  margin-top: 1rem;   /* fallback */
-  max-height: 32px;      /* fallback */
+  margin-top: -4rem;   /* fallback */
+  max-height: 30px;      /* fallback */
   -webkit-line-clamp: 100; /* number of lines to show */
   -webkit-box-orient: vertical;
 }
@@ -165,7 +206,7 @@ word-spacing:
 margin:
 0px;
 padding:
-0px;
+1px;
 
 font-weight:
 400;
@@ -181,14 +222,29 @@ text-align:
 center;
 text-indent:
 0px;
-
+margin-top: -2rem;
 
   
 }
 
 
 .read-more{
-  color: crimson;
+  color:  rgb(234, 117, 124);
+  text-decoration: none;
+  margin-left: 1px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-variant: normal;
+  font-family: Poppins, sans-serif;
+ 
+  background-color: rgba(0, 0, 0, 0);
+
+  text-align: center;
+  text-indent: 0px;
+  line-height: 28.8px;
+  text-transform: none;
+  text-decoration: none solid rgb(234, 117, 124);
 }
 .read-more :hover{
   color: crimson;
@@ -282,5 +338,79 @@ height: 1300px;
 }
 
 
+.h2{
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-variant: normal;
+  font-family: Poppins, sans-serif;
+  
+  margin: 0px 0px 0px 0px; 
+  
+padding: 0px 0px 0px 0px;
+  
+  background-color: rgba(0, 0, 0, 0);
+  
+  text-align: center;
+  text-indent: 0px;
+  line-height: 60px;
+  text-transform: none;
+  text-decoration: none solid rgb(0, 0, 0);
+}
+
+.circle {
+  /*border:3px solid black;*/
+/*	-moz-border-radius: 5%;
+	-webkit-border-radius: 5%;
+	border-radius: 5%;*/
+	overflow:hidden;
+	position:relative;
+  display:inline-block;
+  padding:0px;
+  margin-left:-3.5px;
+}
+.iframe {
 
 
+  padding: 0px;
+ 
+  display: block;
+}
+
+
+
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
